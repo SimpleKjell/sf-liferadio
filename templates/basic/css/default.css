@@ -1,0 +1,134 @@
+
+
+@font-face {
+  font-family: 'XXMarker';
+  src: url('fonts/Doubletwo Studios - XXIIMarker.otf');
+}
+
+
+/*
+* START Allgemeine Klassen
+*/
+.hidden {
+  display: none;
+}
+.marginTopMedium {
+  margin-top: 25px;
+}
+.marginBottomMedium {
+  margin-bottom: 25px;
+}
+.center {
+  text-align: center;
+}
+
+/*
+* END Allgemeine Klassen
+*/
+
+/*
+* Start Form
+*/
+
+.sfl_heading, .sfl_wunsch_input {
+  font-family: 'XXMarker';
+  color: #000;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.sfl_wunsch_input {
+  font-size: 35px;
+}
+.sfl_wunsch_input input {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #000 !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  font-size: 35px !important;
+  text-transform: uppercase;
+  font-family: 'XXMarker' !important;
+  text-align: center;
+  display: inline-block !important;
+  width: 140px !important;
+  padding: 0 !important
+}
+html body .sfl_container .sfl_wunsch_input input:focus {
+  background: transparent !important;
+}
+
+.sfl_box {
+  padding: 25px;
+  border: 5px dotted #000;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  min-width: 300px;
+  margin: 0 15px;
+}
+.sfl_input_field input, .sfl_input_field label {
+  display: inline-block !important;
+}
+.sfl_input_field label {
+  width: 105px;
+}
+.sfl_input_field input {
+  float: right;
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  color: #000 !important
+}
+.sfl_input_field input:focus {
+  background: #fff !important;
+  color: #000;
+}
+/*
+* End Form
+*/
+
+
+/*
+* Mobile Anpassungen
+*/
+
+
+/*Für Mobilphones bis 600 Pixel*/
+
+@media screen and (max-width: 600px) {
+
+	h2 { font-size: 21px !important;}
+	.prb_form_container .prb_form input.prb_input { margin: 2% 0 0 0; }
+	.prb_form_select { margin: 2% 0 0 0; }
+	.prb_form_checkbox { margin: 15px 0 0 0; }
+	#prb_form_checkboxid { margin-left: 48px;}
+	.prb_form_btn { margin-right: 24px; }
+
+	.prb_footerspace { margin-left: 0; }
+	.prb_footerspace img { width: 80px;}
+	.prb_footerspace1 img { width: 200px;}
+
+
+	#Footer {
+		text-align:center;
+	}
+
+	.icon-search { display:none; }
+	}
+
+ /* Für alle Geräte die Größer sind bis 1239px */
+
+@media screen and (min-width: 600px) and (max-width: 1239px) {
+
+	.prb_form_container .prb_form input.prb_input { margin: 1% 0% 0 8%; width: 39%; }
+	.prb_form_select { margin: 1% 11% 0 8%; width: 39%;}
+	.prb_form_checkbox { margin: 3% 0% 0% 10%; }
+	.prb_footerspace img { display:none;}
+	.prb_footerspace { margin-left: 0; }
+
+}
+
+
+/*
+* Ende der Mobilen Anpassungen
+*/

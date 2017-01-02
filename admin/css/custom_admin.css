@@ -1,0 +1,124 @@
+/* Custom Admin CSS */
+.hidden {
+  display: none;
+}
+.marginTopMedium {
+  margin-top: 25px;
+}
+.marginBottomMedium {
+  margin-bottom: 25px;
+}
+
+.circle {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+  vertical-align: top;
+}
+
+.circle canvas {
+  vertical-align: top;
+}
+
+.circle strong {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 23px;
+  color: #626262;
+}
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+/*
+* START Main Donation Table
+*/
+#donationTableMain th {
+  cursor: pointer;
+  color: #00b9eb;
+}
+#donationTableMain th span {
+  color: #555;
+  display: none;
+}
+#donationTableMain th.headerSortDown span.headerSortDown, #donationTableMain th.headerSortUp span.headerSortUp {
+  display: inline;
+}
+
+.editDonationSaveButton, #donationTableMain .close, #donationTableMain .editInput {
+  display: none;
+}
+#donationTableMain .close, #donationTableMain .delete {
+  color: #EA4E92;
+}
+.canvasjs-chart-credit {
+  display: none;
+}
+.prevYear, .nextYear {
+  color: #EA4E92;
+  cursor: pointer;
+  display: none;
+}
+/*
+* END Main Donation Table
+*/
+/*
+* START Add Donation
+*/
+.spendenAddBox {
+  padding: 30px;
+}
+.spendenAddBox .field {
+  width: 326px;
+  margin-bottom: 15px;
+}
+.spendenAddBox .field label {
+  width: 120px;
+  display: inline-block;
+  font-size: 16px;
+}
+.spendenAddBox .field input, .spendenAddBox .field select{
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+}
+.spendenAddBox .field input[type="number"], .spendenAddBox .field select {
+  height: 41px;
+}
+/*
+* END Add Donation
+*/
+/*
+* START DISPLAY SUB INFO
+*/
+.subInfo {
+  padding: 20px;
+}
+.subInfo .field {
+  width: 350px;
+      border: 1px solid #e5e5e5;
+      padding: 10px;
+      display: inline-block;
+      margin: 10px;
+}
+
+.subInfo .field .label, .subInfo .field .value {
+  display: inline-block;
+}
+.subInfo .field .label {
+  font-weight: bold;
+  width: 150px;
+}
+
+/*
+* END DISPLAY SUB INFO
+*/
