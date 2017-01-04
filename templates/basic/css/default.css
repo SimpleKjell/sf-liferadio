@@ -5,6 +5,11 @@
   src: url('fonts/Doubletwo Studios - XXIIMarker.otf');
 }
 
+@font-face {
+  font-family: 'Rams';
+  src: url('fonts/Rams.otf');
+}
+
 
 /*
 * START Allgemeine Klassen
@@ -21,6 +26,9 @@
 .center {
   text-align: center;
 }
+.sfl_flow_text {
+  font-family: 'Rams';
+}
 
 /*
 * END Allgemeine Klassen
@@ -35,7 +43,7 @@
   color: #000;
   text-transform: uppercase;
   font-size: 45px;
-  margin-bottom: 25px;
+  line-height: 45px;
 }
 .sfl_wunsch_input {
   font-size: 35px;
@@ -83,10 +91,67 @@ html body .sfl_container .sfl_wunsch_input input:focus {
   background: #fff !important;
   color: #000;
 }
+
+.finish_process_sub_teilnahme, .finished_sub_teilnahme {
+  display: none;
+}
+
 /*
 * End Form
 */
+/*
+* START SVG Elemente
+*/
+.svg_edit_container {
+  display: none;
+}
+/*
+* END SVG Elemente
+*/
 
+
+/*
+* START WALL
+*/
+.sfl_wall_sub_single {
+  display: inline-block;
+  margin: 0 15px;
+  -webkit-box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.3);
+  max-height: 150px;
+  border: 2px dotted #000;
+  /*display: none;*/
+}
+.sfl_nav_left, .sfl_nav_right {
+  display: inline-block;
+  margin-top: 58px;
+  vertical-align: top;
+}
+.sfl_nav_left {
+  margin-right: 20px;
+}
+.sfl_nav_right {
+  margin-top: 61px;
+  margin-left: 20px;
+}
+.sfl_wall_sub_container_inner {
+  display: inline-block;
+  overflow: hidden;
+  min-height: 170px;
+}
+.sfl_wall_sub_container_inner_block {
+  /*position: absolute;*/
+
+}
+
+.slick-slider, .slick-track {
+   height:175px;
+}
+
+/*
+* END WALL
+*/
 
 /*
 * Mobile Anpassungen
@@ -95,7 +160,7 @@ html body .sfl_container .sfl_wunsch_input input:focus {
 
 /*Für Mobilphones bis 600 Pixel*/
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
 
 	h2 { font-size: 21px !important;}
 	.prb_form_container .prb_form input.prb_input { margin: 2% 0 0 0; }
@@ -118,7 +183,7 @@ html body .sfl_container .sfl_wunsch_input input:focus {
 
  /* Für alle Geräte die Größer sind bis 1239px */
 
-@media screen and (min-width: 600px) and (max-width: 1239px) {
+/*@media screen and (min-width: 600px) and (max-width: 1239px) {
 
 	.prb_form_container .prb_form input.prb_input { margin: 1% 0% 0 8%; width: 39%; }
 	.prb_form_select { margin: 1% 11% 0 8%; width: 39%;}
@@ -126,7 +191,7 @@ html body .sfl_container .sfl_wunsch_input input:focus {
 	.prb_footerspace img { display:none;}
 	.prb_footerspace { margin-left: 0; }
 
-}
+}*/
 
 
 /*
