@@ -244,7 +244,7 @@ class SFLshortCode {
           </div>
           <?php $nonce = wp_create_nonce( 'user-submit-form' ); ?>
           <input type="hidden" id="form_nonce" value="<?php echo $nonce;?>">
-          <input type="submit" value="weiter" />
+          <center><button type="submit" class="sfl_button marginTopMedium" ><span>weiter</span> <i class="fa fa-angle-right" aria-hidden="true"></i></button></center>
         </div>
       </form>
       <div class="svg_edit_container">
@@ -294,8 +294,8 @@ class SFLshortCode {
         </div>
         <div class="sfl_flow_text center marginBottomMedium">
           Dein Wunsch ist eingetragen. <br/>
-          Du wirst benachrichtigt, sobald du als Gewinner gezogen wurdest. <br />
-          Die Gewinner werden nur unter denjenigen gezogen, die ihren Wunsch auf Facebook geteilt haben.
+          Danke fürs’ mitspielen, nicht vergessen – <br />
+          Teilen und jeden Morgen kurz nach 7 LifeRadio hören und gewinnen!
         </div>
       </div>
     </div>

@@ -34,7 +34,7 @@ SFLFrontEnd.prototype = {
 
 				centerMode: true,
 			  centerPadding: '60px',
-			  slidesToShow: 3,				
+			  slidesToShow: 3,
 				variableWidth: true,
 				arrows: false
 			});
@@ -207,13 +207,12 @@ SFLFrontEnd.prototype = {
 								jQuery("#sfl_fb_share").click(function(a) {
 			            a.preventDefault(), FB.ui({
 			                method: "feed",
-											name: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem",
-			                link: "http://google.at/",
+											name: "LifeRadio verdoppelt Dein Gehalt!",
+			                link: "http://gehaltverdoppeln.liferadio.at",
 											picture: uri,
 			                caption: "Liferadio verdoppelt dein Gehalt!",
-			                description: "Veroppel dein Gehalt! Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+			                description: "So einfach geht Dein Traum in Erfüllung: Mitspielen auf http://gehaltverdoppeln.liferadio.at, jeden Morgen kurz nach 7 Uhr LifeRadio hören und gewinnen!",
 			            }, function(a) {})
-
 									jQuery('.finish_process_sub_teilnahme').hide();
 									jQuery('.finished_sub_teilnahme').css('display', 'inline-block');
 								})
